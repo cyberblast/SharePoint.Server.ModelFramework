@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FeatureActivation.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Model\Columns\FieldBoolean.cs" />
     <Compile Include="Model\Columns\FieldCalculated.cs" />
@@ -69,7 +68,9 @@
     <Compile Include="Model\ListView.cs" />
     <Compile Include="Model\SiteColumn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SiteProvisioner.cs" />
+    <Compile Include="Provisioning\FeatureActivation.cs" />
+    <Compile Include="Provisioning\FeatureUpgrade.cs" />
+    <Compile Include="Provisioning\SiteProvisioner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

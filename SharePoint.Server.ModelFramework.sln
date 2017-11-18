@@ -5,16 +5,34 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Server.ModelFramework", "SharePoint.Server.ModelFramework\SharePoint.Server.ModelFramework.csproj", "{1121D390-AF29-4F2F-A963-C5733B80D8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsageExample", "UsageExample\UsageExample.csproj", "{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Debug|x64.Build.0 = Debug|Any CPU
 		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Release|x64.ActiveCfg = Release|Any CPU
+		{1121D390-AF29-4F2F-A963-C5733B80D8A0}.Release|x64.Build.0 = Release|Any CPU
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|x64.ActiveCfg = Debug|x64
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|x64.Build.0 = Debug|x64
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Debug|x64.Deploy.0 = Debug|x64
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Release|x64.ActiveCfg = Release|x64
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Release|x64.Build.0 = Release|x64
+		{4C91673F-9ED3-4808-8EBC-1CC7A2DC12C1}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

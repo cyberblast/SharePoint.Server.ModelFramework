@@ -6,8 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cyberblast.SharePoint.Server.ModelFramework
-{
+namespace cyberblast.SharePoint.Server.ModelFramework.Provisioning {
     public static class SiteProvisioner
     {
         /// <summary>

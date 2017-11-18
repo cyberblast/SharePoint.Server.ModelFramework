@@ -5,7 +5,7 @@ using Microsoft.SharePoint.Publishing;
 using System.Collections.Generic;
 using System.Timers;
 
-namespace cyberblast.SharePoint.Server.ModelFramework {
+namespace cyberblast.SharePoint.Server.ModelFramework.Provisioning {
     public class FeatureActivation
     {
         const int PUBLISHING_MAX_DELAY = 60000;

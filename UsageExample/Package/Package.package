@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9f53d740-2c0e-4938-a4e7-d20d4f5c599c" solutionId="9f53d740-2c0e-4938-a4e7-d20d4f5c599c" resetWebServer="true" sharePointProductVersion="15.0" name="cyberblast.SharePoint.Server.ModelFramework.UsageExample" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8bbb814f-c6cb-4a0e-9a66-34a7ee59c855" />
+    <featureReference itemId="0d4ec573-f41a-4048-a079-0f73d84ab0c8" />
+  </features>
+</package>
